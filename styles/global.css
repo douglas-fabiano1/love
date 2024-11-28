@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    /*1 rem = 10px*/
+    --ff: "Allura", cursive, sans-serif;
+    --font: normal 4rem/1.5 var(--ff);
+    --font-color: rgb(253, 125, 108);
+    background: rgb(0, 0, 0);
+    background: -moz-radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(54, 0, 0, 1) 75%, rgba(52, 0, 0, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(54, 0, 0, 1) 75%, rgba(52, 0, 0, 1) 100%);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(54, 0, 0, 1) 75%, rgba(52, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#340000", GradientType=1);
+}
+
+.container {
+    max-width: 120rem;
+    margin-inline: auto;
+    padding-block: 5rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

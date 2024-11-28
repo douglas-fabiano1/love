@@ -1,0 +1,15 @@
+@import url(global.css);
+
+body {
+    background-color: var(--bg-color);
+}
+
+main {
+    height: 100vh;
+}
+
+h1 {
+    font: var(--font);
+    color: var(--font-color);
+    text-align: center;
+}
